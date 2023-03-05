@@ -7,7 +7,7 @@
     "description": "Mi currículum profesional",
     "icons": [
       {
-        "src": "/images/perfil.jpg",
+        "src": "/images/icono.jpg",
         "sizes": "192x192",
         "type": "image/png"
       },

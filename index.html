@@ -6,11 +6,7 @@
 	<head>
 		<link rel="manifest" href="/manifest.json">
 	</head>
-	<script>
-		if ("serviceWorker" in navigator) {
-		  navigator.serviceWorker.register("/service-worker.js");
-		}
-	</script>
+	
 	
 	<link rel="icon" type="image/png" href="images/perfil.jpg">
 	<link rel="stylesheet" href="css/style.css">
@@ -122,6 +118,12 @@
 				</ul>
 				</section>
 			</main>
+		<!-- Scripts -->
+  		<script src="/service-worker.js">
+			if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register("/service-worker.js");
+			}
+		</script>
 		<footer>
 			<p>Derechos reservados &copy; Reymon Pacheco Mejia | Año de creación @Marzo/04/2023 </p>
 		</footer>
