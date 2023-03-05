@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi Currículum</title>
+	<head>
+		<link rel="manifest" href="/manifest.json">
+	</head>
+	<script>
+		if ("serviceWorker" in navigator) {
+		  navigator.serviceWorker.register("/service-worker.js");
+		}
+	</script>
+	
+	<link rel="icon" type="image/png" href="images/perfil.jpg">
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body><main>
+		<style>
+			body {
+				background-color: #ffffff; /* Color de fondo de la página */
+				box-shadow: inset 0 0 0 20px #ac8150; /* Margen con color diferente */
+			}
+		</style>
+		<header style="margin-bottom: 20px;">
+			<img src="images/perfil.jpg" alt="Foto de perfil" style="width: 150px; height: 150px; margin-right: 15px; float: left; border-radius: 100%;">
+			<div style="overflow: hidden;">
+				<h1 style="font-size: 24px; margin-top: 10px; margin-bottom: 5px;">Reymon Pacheco Mejia</h1>
+				<p style="font-size: 18px; margin-top: 0; margin-bottom: 5px;">Ingeniero en Desarollo y Gestion de Software</p>
+				<nav style="clear: both;">
+					<ul>
+						<li><a href="#perfil">Perfil</a></li>
+						<li><a href="#experiencia">Experiencia</a></li>
+						<li><a href="#educacion">Educación</a></li>
+						<li><a href="#habilidades">Habilidades</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<section id="perfil">
+				<h2>Perfil</h2>
+				<p>Ingresé en el ámbito de la tecboología en 2016 en el estado de puebla, asistiendo a un bachillerato de educación media superior donde, por primera vez, logré gestionar y obtimizar los equipos de cómputo para posteriormente desarrollar proyectos que participaron en competencias/concursos nacionales.</p>
+				<p>Una vez concluido el bachillerato, tuve la oportunidad de integrarme a una universidad en el estado de hidalgo, donde inicié la carrera de Técnico en Desarollo de Software Multiplataforma durante tres años, donde tambien realice un curso de ingles intensivo para lograr certificarme en TOELF con un B1.</p>
+			</section>
+			<section id="educación">
+				<h2>Educación</h2>
+				<table>
+					<tr>
+					<th>Nombre de la Institución</th>
+					<th>Fecha de inicio - Fecha de finalización</th>
+				</tr>
+					<tr>
+					<td>CECyTE Venustiano Carranza, Puebla.</td>
+					<td>2016 - 2019</td>
+				</tr>
+					<tr>
+					<td>UTEC Tulancingo, Hidalgo.</td>
+					<td>2019 -  2021</td>
+				</tr>
+				</table>
+			</section>
+			<section id="experiencia">
+				<h2>Experiencia</h2>
+					<table>
+					<tr>
+					<th>Nombre de la Empresa</th>
+					<th>Fecha de inicio - Fecha de finalización</th>
+					<th>Cargo</th>
+					<th>Descripción de las tareas y logros en el cargo</th>
+				</tr>
+				<tr>
+					<td>Civer.Net</td>
+					<td>2018 - 2019</td>
+					<td>Atencion al cliente.</td>
+					<td>Poder aclarar las udas y nececidades de los clientes, ayudarlos en poder desarollar conocimiento en la tecnologia.</td>
+				</tr>
+				<tr>
+					<td>Torres LAN</td>
+					<td>2019 - 2020</td>
+					<td>Instalador</td>
+					<td>Encargado de visitar a los clinetes que solicitaban instalacion de WIFI mediante antenas y configuracion y enlace con el servidor principal.</td>
+				</tr>
+				<tr>
+					<td>UxDigital</td>
+					<td>2020 - 2021</td>
+					<td>Desarollador</td>
+					<td>Encargado de desarollar nuevas herramientas que ayudaran a ala atención al cliente de forma simultanea.</td>
+				</tr>	
+			</table>
+			</section>
+			<main style="display: flex; flex-direction: row; flex-wrap: wrap;">
+				<section id="habilidades" style="flex: 1 1 200px;">
+				<h2>Habilidades</h2>
+				<ul>
+					<li>Desarrollo web</li>
+					<li>Python</li>
+					<li>PHP</li>
+					<li>CSS</li>
+					<li>Java Script</li>
+					<li>Desarollo Móvil</li>
+					<li>Angular</li>
+					<li>Docker</li>
+				</ul>
+				</section>
+				<section id="lenguaje" style="flex: 1 1 200px;">
+					<h2>Idiomas</h2>
+					<ul>
+					<li>Español: Nativo </li>
+					<li>Ingles: Intermedio</li>
+				</ul>
+				</section>
+				<section id="contacto" style="flex: 1 1 200px;">
+				<h2>Contacto</h2>
+				<ul>
+					<li>Teléfono: 7752052089</li>
+					<p>WhatsApp: <a href="https://web.whatsapp.com/?p=us/">8139888568</a></p>
+					<p>Correo: <a href="mailto:1719110901@utectulancingo.edu.mx">Enviar Correo</a></p>
+					<li>LinkedIn: <a href="https://www.linkedin.com/in/reymon-pacheco-mejia-0b7271267">Enlace al perfil de LinkedIn</a></li>
+				</ul>
+				</section>
+			</main>
+		<footer>
+			<p>Derechos reservados &copy; Reymon Pacheco Mejia | Año de creación @Marzo/04/2023 </p>
+		</footer>
+	</body>
+</html>

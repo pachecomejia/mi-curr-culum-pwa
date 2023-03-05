@@ -1,0 +1,22 @@
+{
+    "name": "Mi Currículum",
+    "short_name": "Curriculum",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Mi currículum profesional",
+    "icons": [
+      {
+        "src": "/images/perfil.jpg",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/perfil.jpg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ac8150"
+  }
+  
